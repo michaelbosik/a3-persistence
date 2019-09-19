@@ -5,6 +5,8 @@ Assignment 3 - Persistence: Two-tier Web Application with Flat File Database, Ex
 
 http://a3-michaelbosik.glitch.me
 
+Log in credentials were provided via direct message on the class slack to the staff. My slack name is Michael Bosik if there are any questions.
+
 Include a very brief summary of your project here. Images are encouraged, along with concise, high-level text. Be sure to include:
 
 This application is intended to be a way for multiple spotify users to queue up songs and listen to them at the same time.
