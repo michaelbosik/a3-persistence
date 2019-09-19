@@ -34,13 +34,14 @@ passport.use(
             } else {
                 db.get('users')
                     .push({
-                        id: profile.displayName,
+                        id: profile.id,
+                        displayName: profile.displayName,
                         token: accessToken
                     })
                     .write()
             }
         client_token = accessToken;
-        loggedIn = profile.displayName;
+        loggedIn = profile.id;
         process.nextTick(function() {
             return done(null, profile);
         });
