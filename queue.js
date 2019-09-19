@@ -43,7 +43,7 @@ $(document).on('click', '.songItem', function(event){
                 spotify_uri: event.currentTarget.id,
                 song_name: event.currentTarget.childNodes[0].innerHTML,
                 artist_name: event.currentTarget.childNodes[1].innerHTML,
-                length: event.currentTarget.childNodes[2].innerHTML,
+                length: event.currentTarget.childNodes[3].innerHTML,
                 added_by: user
             },
         function(data, status){
